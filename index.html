@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthConnect - FIU Startup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">HealthConnect</h1>
+            <ul class="nav-menu">
+                <li><a href="#vision" class="nav-link">Vision</a></li>
+                <li><a href="#about" class="nav-link">About Us</a></li>
+                <li><a href="#gather" class="nav-link">Get Involved</a></li>
+                <li><a href="#resources" class="nav-link">Resources</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Vision Section -->
+    <section id="vision" class="section vision-section">
+        <div class="container">
+            <h2 class="section-title">Our Vision</h2>
+            <div class="vision-content">
+                <p class="vision-text">
+                    HealthConnect is revolutionizing healthcare accessibility by bridging the gap between 
+                    patients and healthcare providers. We envision a future where quality healthcare 
+                    information and services are accessible to everyone, regardless of their location or 
+                    economic status.
+                </p>
+                <p class="vision-text">
+                    Through innovative technology and compassionate care, we're building a platform that 
+                    empowers individuals to take control of their health journey while connecting them 
+                    with the resources and professionals they need.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <p class="about-text">
+                    HealthConnect is a student-led startup initiative at Florida International University (FIU), 
+                    driven by the passion to make healthcare more accessible and equitable. Our team consists 
+                    of dedicated students from various disciplines who share a common goal: transforming 
+                    healthcare delivery through technology and innovation.
+                </p>
+            </div>
+            
+            <h3 class="team-title">Our Team</h3>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-icon">👨‍💻</div>
+                    <h4>Technology Team</h4>
+                    <p>Building innovative solutions to connect patients and providers</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-icon">💼</div>
+                    <h4>Business Team</h4>
+                    <p>Developing sustainable models for healthcare accessibility</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-icon">🎨</div>
+                    <h4>Design Team</h4>
+                    <p>Creating user-friendly experiences for all users</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-icon">❤️</div>
+                    <h4>Community Team</h4>
+                    <p>Engaging with communities to understand their healthcare needs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gather Information Section -->
+    <section id="gather" class="section gather-section">
+        <div class="container">
+            <h2 class="section-title">Get Involved</h2>
+            <p class="gather-intro">
+                Help us understand the healthcare challenges in our community. Your responses will guide 
+                our development and help us create solutions that truly matter.
+            </p>
+            
+            <form id="infoForm" class="info-form">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="role">I am a: *</label>
+                    <select id="role" name="role" required>
+                        <option value="">Select one...</option>
+                        <option value="student">Student</option>
+                        <option value="healthcare-provider">Healthcare Provider</option>
+                        <option value="patient">Patient</option>
+                        <option value="researcher">Researcher</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="challenge">What is the biggest healthcare challenge you face? *</label>
+                    <textarea id="challenge" name="challenge" rows="4" required></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="features">What features would you like to see in a healthcare platform?</label>
+                    <textarea id="features" name="features" rows="4"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="involvement">How would you like to get involved?</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="involvement" value="beta-tester"> Beta Tester</label>
+                        <label><input type="checkbox" name="involvement" value="volunteer"> Volunteer</label>
+                        <label><input type="checkbox" name="involvement" value="partner"> Partner</label>
+                        <label><input type="checkbox" name="involvement" value="updates"> Receive Updates</label>
+                    </div>
+                </div>
+                
+                <button type="submit" class="submit-btn">Submit Response</button>
+            </form>
+            
+            <div id="formMessage" class="form-message"></div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="section resources-section">
+        <div class="container">
+            <h2 class="section-title">Resources & Competition</h2>
+            
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h3>Technologies We Use</h3>
+                    <ul class="resource-list">
+                        <li>HTML5, CSS3, JavaScript</li>
+                        <li>Modern Web Development Frameworks</li>
+                        <li>Cloud Infrastructure</li>
+                        <li>Data Security & Privacy Tools</li>
+                        <li>Mobile-First Design</li>
+                    </ul>
+                </div>
+                
+                <div class="resource-card">
+                    <h3>Academic Resources</h3>
+                    <ul class="resource-list">
+                        <li>FIU Startup Lab</li>
+                        <li>Healthcare Innovation Research</li>
+                        <li>Industry Partnerships</li>
+                        <li>Mentorship Programs</li>
+                        <li>FIU Computer Science Department</li>
+                    </ul>
+                </div>
+                
+                <div class="resource-card">
+                    <h3>Competition</h3>
+                    <ul class="resource-list">
+                        <li><strong>Event:</strong> FIU Startup Competition</li>
+                        <li><strong>Focus:</strong> Healthcare Innovation</li>
+                        <li><strong>Goal:</strong> Pitch our solution to improve healthcare accessibility</li>
+                        <li><strong>Impact:</strong> Bring our vision to life and serve our community</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer">
+                <p>&copy; 2024 HealthConnect - FIU Startup Initiative</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
